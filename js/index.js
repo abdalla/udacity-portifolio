@@ -1,63 +1,48 @@
 const projects = [
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/saintpaul.png",
+		"title": "Saint Paul",
+		"uri": "http://www.saintpaul.com.br/default.aspx"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/fnac.png",
+		"title": "FNAC",
+		"uri": "http://www.fnac.com.br/"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
-	},
-		{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/pamais.png",
+		"title": "PA Mais",
+		"uri": "https://www.paodeacucarmais.com.br"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/hni.png",
+		"title": "Hni Corp",
+		"uri": "http://www.hnicorp.com/"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/asi.png",
+		"title": "Allsteel Office",
+		"uri": "http://allsteeloffice.com/"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/hon.png",
+		"title": "HON",
+		"uri": "https://www.hon.com/"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/fiat.png",
+		"title": "Fiat - BR",
+		"uri": "http://www.fiat.com.br/"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
-	},
-		{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/infoglobo.png",
+		"title": "Infoglobo",
+		"uri": "http://infoglobo.com.br/Anuncie/Home.aspx"
 	},
 	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
-	},
-	{
-		"thumb": "imgs/projects/movie.png",
-		"title": "Top Movies",
-		"uri": "https://github.com/abdalla/py-movies"
+		"thumb": "imgs/projects/datamidia.png",
+		"title": "Datamidia FCBi",
+		"uri": "https://www.fcb.com/"
 	}
 ];
 
