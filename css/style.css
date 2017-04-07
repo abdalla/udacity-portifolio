@@ -1,0 +1,293 @@
+:root {
+  --max-screen-size: 868px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.personalInfo {
+    width: 80%;
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding-right: 13px;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 1px;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#logo {
+    width: 20%;
+}
+
+#footer {
+    width: 100%;
+    position: fixed;
+    padding: 1px;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.footer-content {
+    margin-top: 17px;
+    text-align: right;
+    width: 100%;
+    padding-right: 13px;
+    padding-top: 10px;
+}
+
+.features {
+    max-width: 100%;
+}
+
+#features-container {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 868px) {
+    body {
+        margin: auto;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 15pt;
+        margin-bottom: 11px;
+    }
+
+    h2 {
+        font-size: 15pt;
+        color: #000080;
+    }
+
+    h3 {
+        font-size: 13pt;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        margin-top: -10px;
+        font-size: 7pt;
+    }
+
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        width: 100%;
+        max-height: 1px;
+    }
+
+    #header {
+        right: 1px;
+        top: 0;
+        left: 1px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .features-content {
+        min-width: 100%;
+        margin: -4px 0 -75px 0;
+        max-height: 100%;
+    }
+
+    .central-image {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+        margin-top: 23px;
+        position: relative;
+    }
+
+    .central-picture {
+        position: absolute;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+    }
+
+    .project-img, .project-title, .project-url {
+        max-width: 100%;
+        max-height: 60%;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+        text-align: center;
+        margin: auto;
+    }
+
+    .project-thumb {
+        max-width: 100%;
+        height: 70#;
+    }
+
+    .project-title {
+        margin-top: -10px;
+        max-width: 100%;
+    }
+
+    .project-title h3 {
+        text-align: center;
+    }
+
+    .project-url {
+        margin-top: -12px;
+    }
+
+    .project-url a {
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    #footer {
+        right: 0;
+        left: 0;
+    }
+
+}
+
+@media screen and (min-width: 868px) {
+    body {
+        max-width: var(--max-screen-size);
+        margin: auto;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 40pt;
+        margin-bottom: 1px;
+    }
+
+    h2 {
+        font-size: 22pt;
+        color: #000080;
+    }
+
+    h3 {
+        font-size: 10pt;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        margin-top: -7px;
+        font-size: 10pt;
+    }
+
+    hr {
+        display: none;
+    }
+    #header {
+        max-width: var(--max-screen-size);
+    };
+
+    .logo {
+        width: 150px;
+    }
+
+    .central-image {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        margin-top: 115px;
+        position: relative;
+    }
+
+    .central-picture {
+        position: absolute;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        /* For the following settings we set 100%, but it can be higher if needed
+        See the answer's update */
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+    }
+
+    .features-content {
+        max-width: 33.3333%;
+        margin-bottom: 17px;
+        padding: 13px;
+    }
+
+    .project-img, .project-title, .project-url {
+        max-width: 100%;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+        text-align: center;
+        margin: auto;
+    }
+
+    .project-thumb {
+        max-width: 100%;
+    }
+
+    .project-title {
+        margin-top: -10px;
+        max-width: 100%;
+    }
+
+    .project-title h3 {
+        text-align: center;
+    }
+
+    .project-url {
+        margin-top: -12px;
+    }
+
+    .project-url a {
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    #footer {
+        max-width: var(--max-screen-size);
+    }
+
+
+
+
+}
+
