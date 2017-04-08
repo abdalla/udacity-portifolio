@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
 }
 
 .flex {
@@ -18,12 +18,12 @@ body {
 	flex-wrap: wrap;
 }
 
-.container {
+main {
     max-height: 100%;
     max-width: 100%;
 }
 
-.personalInfo {
+.personal-info {
     width: 80%;
     text-align: right;
     vertical-align: middle;
@@ -31,7 +31,7 @@ body {
     padding-right: 13px;
 }
 
-#header {
+header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -71,7 +71,7 @@ body {
 @media screen and (max-width: 868px) {
     body {
         margin: auto;
-        padding: 40px;
+        padding: 10px;
     }
 
     h1 {
@@ -106,10 +106,14 @@ body {
         max-height: 1px;
     }
 
-    #header {
+    header {
         right: 1px;
         top: 0;
         left: 1px;
+    }
+
+    main {
+        padding-top: 80px;
     }
 
     .logo {
@@ -119,7 +123,6 @@ body {
 
     .features-content {
         min-width: 100%;
-        margin: -4px 0 -23px 0;
         max-height: 100%;
     }
 
@@ -127,19 +130,14 @@ body {
         width: 100%;
         height: 100px;
         overflow: hidden;
-        margin-top: 23px;
         position: relative;
     }
 
     .central-picture {
-        position: absolute;
         margin: auto;
-        min-height: 100%;
-        min-width: 100%;
-        left: -100%;
-        right: -100%;
-        top: -100%;
-        bottom: -100%;
+        height: 100%;
+        width: 100%;
+
     }
 
     .project-img, .project-title, .project-url {
@@ -214,7 +212,7 @@ body {
     hr {
         display: none;
     }
-    #header {
+    header {
         max-width: var(--max-screen-size);
     };
 
@@ -232,22 +230,18 @@ body {
     }
 
     .central-picture {
-        position: absolute;
         margin: auto;
         min-height: 100%;
         min-width: 100%;
-        /* For the following settings we set 100%, but it can be higher if needed
-        See the answer's update */
-        left: -100%;
-        right: -100%;
-        top: -100%;
-        bottom: -100%;
+        height: 300px;
+        width: 868px;
     }
 
     .features-content {
         max-width: 33.3333%;
         margin-bottom: 17px;
         padding: 13px;
+        margin-top: -20px;
     }
 
     .project-img, .project-title, .project-url {

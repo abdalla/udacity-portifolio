@@ -51,9 +51,9 @@ const projects = [
 	const getHtml = () => {
 		const count = projects.length - 1;
 		const html = projects.map((p, index) => {
-			return `<div id=${index} class="features-content">
+			return `<article id=${index} class="features-content">
 								<div class="project-img">
-									<img class="project-thumb" src="${p.thumb}">
+									<img class="project-thumb" src="${p.thumb}" alt="${p.title}">
 								</div>
 								<div class="project-title">
 									<h3>${p.title}</h3>
@@ -63,7 +63,7 @@ const projects = [
 								</div>
 
 								${ index < count ? '<hr />' : ''}
-							</div>`;
+							</article>`;
 		}).join('');
 
 		return html;
