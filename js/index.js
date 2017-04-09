@@ -70,7 +70,7 @@ const projects = [
 	};
 
  	const loadProjects = () => {
- 		const contentDiv = document.getElementById('features-container');
+ 		const contentDiv = document.getElementsByClassName('features-container')[0];
 
  		contentDiv.innerHTML = getHtml();
  	};

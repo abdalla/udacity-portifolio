@@ -13,23 +13,12 @@ body {
     font-family: "Orbitron", sans-serif;
 }
 
-.flex {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 main {
     max-height: 100%;
     max-width: 100%;
 }
 
-.personal-info {
-    width: 80%;
-    text-align: right;
-    vertical-align: middle;
-    text-transform: uppercase;
-    padding-right: 13px;
-}
 
 header {
     width: 100%;
@@ -40,11 +29,7 @@ header {
     background-color: #fff;
 }
 
-#logo {
-    width: 20%;
-}
-
-#footer {
+footer {
     width: 100%;
     position: fixed;
     padding: 1px;
@@ -52,17 +37,34 @@ header {
     background-color: #fff;
 }
 
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.personal-info {
+    text-align: right;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding-right: 13px;
+}
+
+.logo {
+    width: 20%;
+}
+
+
 .footer-content {
-    padding-right: 22px;
     padding-left: 22px;
     padding-top: 10px;
+    width: 100%;
 }
 
 .features {
     max-width: 100%;
 }
 
-#features-container {
+.features-container {
     max-width: 100%;
 }
 
@@ -97,9 +99,6 @@ header {
         text-transform: uppercase;
     }
 
-    .copyright, .social {
-        font-size: 7pt;
-    }
 
     hr {
         display: block;
@@ -117,10 +116,20 @@ header {
         right: 1px;
         top: 0;
         left: 1px;
+        font-size: 8pt;
     }
 
     main {
         padding-top: 80px;
+    }
+
+    footer {
+        right: 0;
+        left: 0;
+    }
+
+    .personal-info {
+        width: 78%;
     }
 
     .logo {
@@ -160,7 +169,6 @@ header {
 
     .project-thumb {
         max-width: 100%;
-        height: 70#;
     }
 
     .project-title {
@@ -181,13 +189,12 @@ header {
         font-size: 12pt;
     }
 
-    #footer {
-        right: 0;
-        left: 0;
+    .footer-content {
+        padding-right: 10px;
     }
 
-    .copyright {
-
+    .copyright, .social {
+        font-size: 7pt;
     }
 }
 
@@ -213,16 +220,22 @@ header {
         text-transform: uppercase;
     }
 
-    .copyright, .social {
-        font-size: 10pt;
+
+    header {
+        max-width: var(--max-screen-size);
+    };
+
+    footer {
+        max-width: var(--max-screen-size);
     }
 
     hr {
         display: none;
     }
-    header {
-        max-width: var(--max-screen-size);
-    };
+
+    .personal-info {
+        width: 82%;
+    }
 
     .logo {
          min-width: 150px;
@@ -283,8 +296,14 @@ header {
         font-size: 12pt;
     }
 
-    #footer {
-        max-width: var(--max-screen-size);
+    .footer-content {
+        max-width: 868px;
+        padding-right: 22px;
+    }
+
+
+    .copyright, .social {
+        font-size: 10pt;
     }
 }
 
